@@ -25,3 +25,8 @@
   :straight t
   :init
   (setq inferior-lisp-program "sbcl"))
+
+(use-package move-text
+  :straight t
+  :config
+  (move-text-default-bindings))
